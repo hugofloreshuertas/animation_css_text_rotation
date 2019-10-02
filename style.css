@@ -1,8 +1,8 @@
 body {
 	margin: 0;
 	padding: 0;
-    background-color: #121212;
-    box-sizing: border-box;
+    	background-color: #121212;
+    	box-sizing: border-box;
 }
 
 .sometext {
@@ -19,13 +19,13 @@ body {
 
 @media (max-width: 780px) {
     .sometext {
-        font-size: 1.2rem;
-        color: rgb(150, 20, 200);
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		min-height: 50vh; 
+	font-size: 1.2rem;
+	color: rgb(150, 20, 200);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 50vh; 
     }
 }
 .mydiv {
@@ -33,7 +33,7 @@ body {
 	margin: 10% auto 0;
 	width: 70%;
 	height: 200px;
-    background: linear-gradient(90deg, #000, #0261ce); 
+    	background: linear-gradient(90deg, #000, #0261ce); 
 }
 
 h1:before {
@@ -66,9 +66,9 @@ h1:before {
 	content: '';
 	position: absolute;
 	left: -8px;
-    top: -8px;
-    background: linear-gradient(120deg, #79fb00, #8d01a0, #031ba5,#ff004c,  
-    #e6036d, #fb0094,#ff6600, #04c2e4,#adad02, #00c3ff);
+	top: -8px;
+	background: linear-gradient(120deg, #79fb00, #8d01a0, #031ba5,#ff004c,  
+	#e6036d, #fb0094,#ff6600, #04c2e4,#adad02, #00c3ff);
 	background-size: 300%;
 	width: calc(100% + 16px);
 	height: calc(100% + 16px);
@@ -89,7 +89,7 @@ h1:before {
 }
 
 .animate-bg:after {
-    filter: brightness(1.4);
-    filter: drop-shadow(16px 16px 20px rgb(248, 220, 97));
-    filter: blur(15px);
+	filter: brightness(1.4);
+	filter: drop-shadow(16px 16px 20px rgb(248, 220, 97));
+	filter: blur(15px);
 }
